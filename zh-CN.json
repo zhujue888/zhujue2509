@@ -1,0 +1,5 @@
+{
+    "plugin.embedImage.menuText": "嵌入单元格",
+    "plugin.embedImage.success": "图片已成功嵌入单元格",
+    "plugin.embedImage.error": "请先选择图片"
+}

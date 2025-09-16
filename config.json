@@ -1,0 +1,30 @@
+{
+    "name": "embed-image-plugin",
+    "version": "1.0.0",
+    "displayName": "图片嵌入单元格",
+    "description": "将图片嵌入单元格，实现类似WPS的图片嵌入功能",
+    "guid": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "appType": "desktop",
+    "icon": "icon.png",
+    "icon2x": "icon@2x.png",
+    "extensions": [
+        {
+            "name": "embed-image",
+            "type": "macro",
+            "description": "图片嵌入单元格功能",
+            "icon": "icon.png",
+            "icon2x": "icon@2x.png",
+            "isViewer": false,
+            "isSystem": false,
+            "isVisual": true,
+            "initOn": "start",
+            "initDataType": "ole",
+            "initData": "",
+            "buttons": [],
+            "events": [],
+            "macros": [
+                "embedImage"
+            ]
+        }
+    ]
+}
